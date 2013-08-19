@@ -12,7 +12,7 @@ h1 {
 	color: white;
 
 	text-shadow: 0px 2px 0px hsla(0.0, 0%, 0%, 0.18);
-    filter: dropshadow(color=#000000, offx=0, offy=2);
+    filter: alpha(Opacity=18) dropshadow(color=#000000, offx=0, offy=2);
 }
 
 p {
