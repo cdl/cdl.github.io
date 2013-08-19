@@ -1,0 +1,139 @@
+@import url("//fonts.googleapis.com/css?family=Roboto+Slab|Montserrat:700");
+body {
+  background-color: rgba(191, 29, 29, 0); }
+
+.avatar {
+  display: inline-block;
+  width: 230px;
+  height: 230px;
+  -moz-border-radius: 110px;
+  -webkit-border-radius: 110px;
+  border-radius: 110px;
+  border: 5px solid rgba(0, 0, 0, 0.15);
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  background-image: url("https://alpha-api.app.net/stream/0/users/@colby/avatar?w=230");
+  background-repeat: no-repeat; }
+
+body {
+  -webkit-font-smoothing: antialiased; }
+
+h1 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.18);
+  filter: dropshadow(color=black, offx=0, offy=2); }
+
+p {
+  max-width: 500px;
+  padding: 0em 1em 1.3em 1em;
+  margin: 0 auto;
+  font-family: "Roboto Slab";
+  font-size: 1.1em;
+  font-weight: 400;
+  color: white;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  filter: dropshadow(color=black, offx=0, offy=1);
+  line-height: 1.7em; }
+
+mark {
+  padding: 0.2em 0.3em;
+  margin: 0em 0.1em;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  text-shadow: none;
+  filter: none;
+  white-space: nowrap;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+body {
+  text-align: center;
+  margin-top: 2em; }
+
+nav {
+  padding: 2em 0em; }
+  nav a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    opacity: 0.57;
+    position: relative; }
+    nav a:hover {
+      opacity: 1.0; }
+
+#twitter {
+  top: -2px;
+  width: 24px;
+  height: 19px;
+  background-image: url("../img/twitter.png"); }
+  #twitter:hover {
+    background-position: 0px -19px; }
+
+#dribbble {
+  width: 25px;
+  height: 23px;
+  background-image: url("../img/dribbble.png"); }
+  #dribbble:hover {
+    background-position: 0px -23px; }
+
+#rdio {
+  top: -2px;
+  width: 24px;
+  height: 19px;
+  background-image: url("../img/rdio.png"); }
+  #rdio:hover {
+    background-position: 0px -19px; }
+
+#github {
+  top: -2px;
+  width: 25px;
+  height: 19px;
+  background-image: url("../img/github.png"); }
+  #github:hover {
+    background-position: 0px -19px; }
+
+#lastfm {
+  top: -5px;
+  width: 24px;
+  height: 14px;
+  background-image: url("../img/lastfm.png"); }
+  #lastfm:hover {
+    background-position: 0px -14px; }
+
+@media screen and (max-width: 500px) {
+  .avatar {
+    width: 200px;
+    height: 200px; }
+
+  body {
+    margin-top: 2em; } }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .avatar {
+    background-image: url("https://alpha-api.app.net/stream/0/users/@colby/avatar?w=460");
+    background-size: 230px 230px; }
+
+  #twitter {
+    background-size: 24px 38px;
+    background-image: url("../img/twitter@2x.png"); }
+
+  #dribbble {
+    background-size: 25px 46px;
+    background-image: url("../img/dribbble@2x.png"); }
+
+  #rdio {
+    background-size: 24px 38px;
+    background-image: url("../img/rdio@2x.png"); }
+
+  #github {
+    background-size: 25px 38px;
+    background-image: url("../img/github@2x.png"); }
+
+  #lastfm {
+    background-size: 24px 28px;
+    background-image: url("../img/lastfm@2x.png"); } }

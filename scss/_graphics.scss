@@ -1,0 +1,24 @@
+// _graphics.scss
+// author: Colby Ludwig
+// date: 2013-08-18
+
+body {
+	background-color: hsla(0.0, 74%, 43%, 0.0);
+}
+
+.avatar {
+	display: inline-block;
+	width: 230px;
+	height: 230px;
+	-moz-border-radius: 110px;
+	-webkit-border-radius: 110px;
+	border-radius: 110px;
+
+	border: 5px solid hsla(0%, 0.0, 0.0, 0.15);
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	background-clip: padding-box;
+
+	background-image: url("https://alpha-api.app.net/stream/0/users/@colby/avatar?w=230");
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,75 @@
+// _navigation.scss
+// author: Colby Ludwig
+// date: 2013-08-18
+
+nav {
+	padding: 2em 0em;
+
+	a {
+		display: inline-block;
+		margin-right: 20px;
+		text-decoration: none;
+		width: 30px;
+		height: 30px;
+		opacity: 0.57;
+		position: relative;
+	
+		&:hover {
+			opacity: 1.0;
+		}
+	}
+}
+
+#twitter {
+	top: -2px;
+	width: 24px;
+	height: 19px;
+	background-image: url('../img/twitter.png');
+
+	&:hover {
+		background-position: 0px -19px;
+	}
+}
+
+#dribbble {
+	width: 25px;
+	height: 23px;
+	background-image: url('../img/dribbble.png');
+
+	&:hover {
+		background-position: 0px -23px;
+	}
+}
+
+#rdio {
+	top: -2px;
+	width: 24px;
+	height: 19px;
+	background-image: url('../img/rdio.png');
+
+	&:hover {
+		background-position: 0px -19px;
+	}
+}
+
+#github {
+	top: -2px;
+	width: 25px;
+	height: 19px;
+	background-image: url('../img/github.png');
+
+	&:hover {
+		background-position: 0px -19px;
+	}
+}
+
+#lastfm {
+	top: -5px;
+	width: 24px;
+	height: 14px;
+	background-image: url('../img/lastfm.png');
+
+	&:hover {
+		background-position: 0px -14px;
+	}
+}

@@ -1,0 +1,45 @@
+@media screen and (max-width: 500px) {
+	.avatar {
+		width: 200px;
+		height: 200px;
+	}
+
+	body {
+		margin-top: 2em;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	.avatar {
+		background-image: url('https://alpha-api.app.net/stream/0/users/@colby/avatar?w=460');
+		background-size: 230px 230px;
+	}
+
+	#twitter {
+		background-size: 24px 38px;
+		
+		background-image: url('../img/twitter@2x.png');
+	}
+
+	#dribbble {
+		background-size: 25px 46px;
+		background-image: url('../img/dribbble@2x.png');
+	}
+
+	#rdio {
+		background-size: 24px 38px;
+		background-image: url('../img/rdio@2x.png');
+	}
+
+	#github {
+		background-size: 25px 38px;
+		background-image: url('../img/github@2x.png');
+	}
+
+	#lastfm {
+		background-size: 24px 28px;
+		background-image: url('../img/lastfm@2x.png');
+	}
+
+	
+}
