@@ -12,7 +12,7 @@ var color = jQuery.Color({ hue: hue, saturation: saturation, lightness: lightnes
 var firstColor = color.lightness(0.13);
 
 $(document).ready(function(){
-	$('section.avatar,h1,p,nav').hide();
+	$('div.avatar,h1,p,nav').hide();
 });
 
 $(window).load(function(){
@@ -21,7 +21,7 @@ $(window).load(function(){
 	$('body').animate({
 		backgroundColor: color
 	}, 500, function() {
-		$('section.avatar').fadeIn(300);
+		$('div.avatar').fadeIn(300);
 		$('h1').fadeIn(350);
 		$('mark').css('color', $(this).css('background-color'));
 		$('p').fadeIn(400);
