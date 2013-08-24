@@ -15,7 +15,18 @@ body {
   -webkit-background-clip: padding;
   background-clip: padding-box;
   background-image: url("https://alpha-api.app.net/stream/0/users/@colby/avatar?w=230");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  -moz-transition: -moz-transform 0.3s ease, box-shadow 0.3s ease;
+  -webkit-transition: -webkit-transform 0.3s ease, box-shadow 0.3s ease;
+  -o-transition: -o-transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; }
+
+.avatar:hover {
+  -moz-transform: scale(1.05) rotate(-4deg);
+  -webkit-transform: scale(1.05) rotate(-4deg);
+  -o-transform: scale(1.05) rotate(-4deg);
+  transform: scale(1.05) rotate(-4deg);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1); }
 
 body {
   -webkit-font-smoothing: antialiased; }

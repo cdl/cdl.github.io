@@ -2,6 +2,12 @@
 // author: Colby Ludwig
 // date: 2013-08-18
 
+// vars
+$transition-delay: 0.3s;
+$rotation-amount: -4deg;
+$scale-amount: 1.05;
+
+// styling
 body {
 	background-color: hsla(0.0, 74%, 43%, 0.0);
 }
@@ -22,4 +28,18 @@ body {
 
 	background-image: url("https://alpha-api.app.net/stream/0/users/@colby/avatar?w=230");
 	background-repeat: no-repeat;
+
+	-moz-transition: -moz-transform $transition-delay ease, box-shadow $transition-delay ease;
+	-webkit-transition: -webkit-transform $transition-delay ease, box-shadow $transition-delay ease;
+	-o-transition: -o-transform $transition-delay ease, box-shadow $transition-delay ease;
+	transition: transform $transition-delay ease, box-shadow $transition-delay ease;
+}
+
+.avatar:hover {
+	-moz-transform: scale($scale-amount) rotate($rotation-amount);
+	-webkit-transform: scale($scale-amount) rotate($rotation-amount);
+	-o-transform: scale($scale-amount) rotate($rotation-amount);
+	transform: scale($scale-amount) rotate($rotation-amount);
+
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
 }
